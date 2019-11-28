@@ -66,7 +66,7 @@ Login.propTypes = {
   isAuthenticated: PropTypes.bool,
 }
 
-const mapStateToProps = ({auth:isAuthenticated}) => ({
+const mapStateToProps = ({auth: {isAuthenticated}}) => ({
   isAuthenticated
 })
 
